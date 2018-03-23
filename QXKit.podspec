@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'QXKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QXKit.'
+  s.summary          = 'its a nice day for write it'
+  s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +18,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = ' Swift Util tools for iOS developer we support Swift 4.1 and higher than iOS8'
 
-  s.homepage         = 'https://github.com/905799827@qq.com/QXKit'
+  s.homepage         = 'https://github.com/CQXfly/QXKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '905799827@qq.com' => 'qingxu.chong@yintech.cn' }
-  s.source           = { :git => 'https://github.com/905799827@qq.com/QXKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { '905799827@qq.com' => 'firefoxdraging@gmail.com' }
+  s.source           = { :git => 'https://github.com/CQXfly/QXKit.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/chongqingxu'
 
   s.ios.deployment_target = '8.0'
 

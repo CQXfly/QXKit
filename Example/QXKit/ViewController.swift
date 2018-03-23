@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import QXKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let t = Date.currentTimeStamp(.None)
+        
+        let z = String(t).getDateDescription1(type: .None)
+        
     }
 
     override func didReceiveMemoryWarning() {
