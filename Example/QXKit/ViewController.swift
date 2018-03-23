@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let t = Date.currentTimeStamp(.None)
         
-        let z = String(t).getDateDescription1(type: .None)
+        let z = String(1521758037).getDateDescription1(type: .None)
         
     }
 

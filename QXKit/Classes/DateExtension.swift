@@ -63,9 +63,9 @@ public extension String {
                 } else {
                     //一天前
                     if (currnetTime - time > 60 * 60 * 24 ) {
-                        return  "\((currnetTime - time)/(60 * 60 * 24))天前"
+                        return  "\(Int((currnetTime - time)/(60 * 60 * 24)))天前"
                     } else {
-                        return  "\((currnetTime - time)/(60 * 60 ))小时前"
+                        return  "\(Int((currnetTime - time)/(60 * 60 )))小时前"
                     }
                 }
             }
