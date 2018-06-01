@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QXKit'
-  s.version          = '0.1.02'
+  s.version          = '0.1.10'
   s.summary          = 'its a nice day for write it'
   s.swift_version    = '4.0'
 
@@ -30,6 +30,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QXKit/Classes/**/*'
+  
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'QXKit' => ['QXKit/Assets/*.png']
