@@ -1,22 +1,25 @@
 {
   "name": "QXKit",
-  "version": "0.1.0",
-  "summary": "A short description of QXKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/905799827@qq.com/QXKit",
+  "version": "0.1.10",
+  "summary": "its a nice day for write it",
+  "swift_version": "4.0",
+  "description": "Swift Util tools for iOS developer we support Swift 4.1 and higher than iOS8",
+  "homepage": "https://github.com/CQXfly/QXKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "905799827@qq.com": "qingxu.chong@yintech.cn"
+    "905799827@qq.com": "firefoxdraging@gmail.com"
   },
   "source": {
-    "git": "https://github.com/905799827@qq.com/QXKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/CQXfly/QXKit.git",
+    "tag": "0.1.10"
   },
+  "social_media_url": "https://twitter.com/chongqingxu",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QXKit/Classes/**/*"
+  "source_files": "QXKit/Classes/**/*",
+  "static_framework": true
 }

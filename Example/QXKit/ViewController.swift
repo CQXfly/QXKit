@@ -22,6 +22,8 @@ class ViewController: UIViewController {
 //        let d = String(c.dropLast(5))
 //        let tmp = String(d).replacingOccurrences(of: "T", with: " ", options: .caseInsensitive, range: d.startIndex ..< d.endIndex)
         
+        
+        let heap = Heap(array: [0,23,2,13,4,6,5,9,8,7], sort: <)
        
         
     }
