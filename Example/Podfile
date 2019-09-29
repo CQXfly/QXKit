@@ -1,5 +1,4 @@
 use_frameworks!
-source 'http://gitlab.yintech.net/ytx-ios/ytx-pod-specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'QXKit_Example' do
   pod 'QXKit', :path => '../'
